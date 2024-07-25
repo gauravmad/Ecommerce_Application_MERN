@@ -1,4 +1,4 @@
-const asyncHandler = require("express-async-handler");f
+const asyncHandler = require("express-async-handler");
 const Orders = require("../models/orderModel");
 const { errorResponse, successResponse } = require("../helpers/apiResponse");
 const generateToken = require("../config/generateToken");
